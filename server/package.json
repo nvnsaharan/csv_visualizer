@@ -1,0 +1,17 @@
+{
+	"name": "server",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "nodemon server.js",
+		"server": "node server.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"csvtojson": "^2.0.10",
+		"express": "^4.17.1"
+	}
+}
