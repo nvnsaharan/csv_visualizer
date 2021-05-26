@@ -1,6 +1,10 @@
 const CSVToJSON = require('csvtojson');
 const express = require('express');
+const cors = require('cors');
+
 const app = express();
+app.use(cors());
+app.options('*', cors());
 const port = process.env.PORT || 3030;
 
 let data = {};
